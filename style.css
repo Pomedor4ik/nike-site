@@ -1,0 +1,51 @@
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100zpx;
+    background-color: rgb(141, 140, 140);
+}
+
+.logo {
+    width: 200px;
+}
+
+.nav-item {
+    margin-right: 50px;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.1em;
+
+    color: black;
+}
+
+.disignBlock{
+    height: 700px;
+    padding-left: 200px;
+    padding-top: 120px;
+}
+
+.disignTitle{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 48px;
+
+    margin-bottom: 45px;
+}
+
+.disignText {
+    width: 700px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.takeOrder {
+    width: 160px;
+    height: 50px;
+    border-radius: 13px;
+}
