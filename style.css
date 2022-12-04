@@ -10,6 +10,7 @@ header{
 main {
     display: flex;
     flex-direction: row;
+    padding-top: 30px;
 }
 
 .logo {
@@ -27,10 +28,15 @@ main {
     color: black;
 }
 
+.prodactsBlock {
+    display: flex;
+    flex-wrap: wrap ;
+    width: 60%;
+}
+
 .prodactBlock {
     width: 200px;
-
-    /* transition-duration: 0,5s; */
+    height: 250px;
 
     box-shadow: 0px 3px 14px -1px rgb(104, 102, 102);
     border-radius: 10px;
@@ -41,7 +47,6 @@ main {
 
 .prodactBlock:hover{
     box-shadow: 0px 4px 11px 5px rgb(136, 134, 134);
-    /* transition-duration: 1s; */
 }
 
 .prodactImg {
@@ -69,9 +74,8 @@ main {
 }
 
 .disignBlock{
-    width: 700px;
+    width: 40%;
     height: 700px;
-    margin-left: 1000px;
     padding-bottom: 120px;
 }
 
@@ -95,4 +99,52 @@ main {
     width: 160px;
     height: 50px;
     border-radius: 13px;
+
+    margin-top: 80px;
+}
+
+.sale {
+    display: flex;
+    justify-content: space-around;
+}
+
+.SBlock {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    margin-top: 40px;
+}
+
+.secondBlock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 220px;
+    height: 200px;
+
+    box-shadow: 0px 3px 14px -1px rgb(104, 102, 102);
+    border-radius: 10px;
+}
+
+.secondBlock>img{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+}
+
+.secondBlock>p{
+    display: none;
+    position: absolute;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.secondBlock:hover>img{
+    opacity: 25%;
+}
+
+.secondBlock:hover>p{
+    display: block;
 }
