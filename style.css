@@ -114,6 +114,7 @@ main {
     justify-content: space-around;
 
     margin-top: 40px;
+    margin-bottom: 50px;
 }
 
 .secondBlock {
@@ -147,4 +148,29 @@ main {
 
 .secondBlock:hover>p{
     display: block;
+}
+
+.gift {
+    display: flex;
+    justify-content: space-around;
+
+    width: 100%;
+}
+
+.giftImg {
+    width: 30px;
+}
+
+.giftImg>img {
+    width: 100%;
+}
+
+.giftText {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.giftImg:hover + .giftText{
+    display: flex;
 }
